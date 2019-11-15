@@ -1,0 +1,348 @@
+/*font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Roboto Mono', monospace;*/
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?ymbhx');
+  src:  url('../fonts/icomoon.eot?ymbhx#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?ymbhx') format('truetype'),
+    url('../fonts/icomoon.woff?ymbhx') format('woff'),
+    url('../fonts/icomoon.svg?ymbhx#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+/*.active{
+	background-color: #ddd;
+}*/
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+body{
+	background-color: #D4D3BF;
+	font-family: 'Roboto Condensed'
+}
+
+header{
+	background-color: #F9F9F9;
+	overflow: hidden;
+
+}
+
+.holder{
+	max-width: 800px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+.holder img{
+	margin-left: 290px;
+	
+}
+
+nav{
+	/*float: right;*/
+}
+
+nav ul{
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+
+nav ul li{
+	display: inline-block;
+	width: 19%;
+}
+
+nav ul li a{
+	color: black;
+	text-decoration: none;
+	text-align:center;
+	display: block;
+	font-size: 20px;
+	margin-left: 1em;
+	/*transition: box-shadow 0.8s ease;*/
+}
+
+ul li a:hover{
+	color:#D82C2C;
+	/*box-shadow: inset 0 0 0 25px black;*/
+}
+
+footer{
+	clear: both;
+	background-color: #F9F9F9;
+	position: static;
+	left:0;
+	bottom: 0;
+	overflow: hidden;
+	width: 100%;
+}
+
+.Tfooter{
+	text-align: center;
+	width: 100%;
+	
+}
+
+.Tfooter2{
+	text-align: center;
+	width: 100%;
+}
+
+.Ifooter{
+	clear: both;
+}
+
+h2{
+	text-align: center;
+	font-size: 15px;
+}
+
+a{
+	text-decoration: none; 
+
+}
+
+a:hover{
+	color:#D82C2C;
+}
+
+.icon-facebook2,
+.icon-instagram,
+.icon-whatsapp,
+.icon-inbox{
+	padding-right: 1em;
+	font-family: icomoon;
+	font-size: 25px;
+	color:black;
+	margin-bottom: 1em;
+}
+
+
+.icon-inbox:before {
+  content: "\e901";
+}
+.icon-diamond:before {
+  content: "\e900";
+}
+.icon-credit-card:before {
+  content: "\e93f";
+}
+.icon-address-book:before {
+  content: "\e944";
+}
+.icon-location2:before {
+  content: "\e948";
+}
+.icon-bubbles2:before {
+  content: "\e96d";
+}
+.icon-gift:before {
+  content: "\e99f";
+}
+.icon-facebook2:before {
+  content: "\ea91";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-whatsapp:before {
+  content: "\ea93";
+}
+
+/*Principio index*/
+
+.Destacados h2{
+	font-size: 20px;
+	margin-top: 1em;
+}
+
+.Destacados{
+	margin-left: 5.4%;
+	margin-right: 5%;
+	max-width: 90%;
+	margin-bottom: : 2em;
+	transition: all 300ms ease-out;
+	clear: both;
+	/*overflow: hidden;*/
+}
+
+.Destacados .Destacado{
+	float: left;
+	margin-left: 7.5%;
+	margin-right: 2em;
+	border: 2px solid #ddd;
+	padding: 0.2em;
+	margin-bottom: 2em;
+}
+
+
+.Destacado img{
+	transform: scale(0.9);
+	transition: transform 0.5s ease;
+	
+}
+
+.Destacado:hover img{
+	transform: scale(1);
+}
+
+.galeria{
+	/*margin-left: 10%;*/
+	overflow: hidden;
+	margin-bottom: 2em;
+}
+
+.galeria .foto{
+	float: left;
+	width: 14%;
+	margin: 1em 0  1em 2.5%;
+	padding-left: 15px;
+	
+}
+
+.galeria .foto img{
+	display: block;
+	max-width: 115px;
+	background-color: #F9F9F9;
+	overflow: hidden;
+	float: left;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	border-radius: 0.25em;
+	border: 3px solid #ddd;
+}
+
+.fondo{
+	overflow: hidden;
+	margin-bottom: 1em;
+}
+
+/* Fin index*/
+/*Inicio Bolsitas html*/
+
+.Contenedor{
+	background-color: #F9F9F9;
+	margin-left: 3.5em;
+	width: 20%;
+	padding: 1em;
+	overflow: hidden;
+	float: left;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	border-radius: 0.25em;
+	border: 3px solid #ddd;
+}
+
+.Contenedor img{
+	max-width: 80%;
+	margin-left: 1.5em;
+}
+.textos{
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 10px;	
+}
+
+/* Fin bolsitas/*
+
+/*Inicio Ropa*/
+
+h3{
+	text-align: center;
+	margin-top: 1em;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.p{
+	margin-left: 2em;
+	margin-top: 2em;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.Contenedor2{
+	background-color: #F9F9F9;
+	margin-left: 3.5em;
+	width: 20%;
+	padding: 1em;
+	overflow: hidden;
+	float: left;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	border-radius: 0.25em;
+	border: 3px solid #ddd;
+}
+
+
+/*Fin ropa*/
+
+/*Inicio accesorios*/
+
+.Destacados2{
+	margin-left: 5.4%;
+	margin-right: 5%;
+	max-width: 90%;
+	margin-bottom: : 2em;
+	transition: all 300ms ease-out;
+	clear: both;
+	/*overflow: hidden;*/
+}
+.galeria2{
+	/*margin-left: 10%;*/
+	overflow: hidden;
+	margin-bottom: 2em;
+}
+
+.galeria2 .foto2{
+	float: left;
+	width: 14%;
+	margin: 1em 0  1em 2.5%;
+	padding-left: 15px;
+	
+}
+
+.galeria2 .foto2 img{
+	display: block;
+	max-width: 115px;
+	background-color: #F9F9F9;
+	overflow: hidden;
+	float: left;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	border-radius: 0.25em;
+	border: 3px solid #ddd;
+}
+
+.textin{
+	margin-top: 2em;
+	font-size: 20px;
+}
+
+.Contenedor2{
+	background-color: #F9F9F9;
+	margin-left: 3.5em;
+	width: 20%;
+	padding: 1em;
+	overflow: hidden;
+	float: left;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	border-radius: 0.25em;
+	border: 3px solid #ddd;
+}
+
+.Contenedor2 img{
+	max-width: 80%;
+	margin-left: 1.5em;
+}
