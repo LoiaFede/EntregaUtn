@@ -8,7 +8,7 @@
 	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
-	<link rel="manifest" href="/site.webmanifest">
+	
 	<meta name="msapplication-TileColor" content="#da532c">
 	<meta name="theme-color" content="#ffffff">
 	<link rel="stylesheet" href="css/aos.css">
@@ -24,7 +24,7 @@
 	<section class="Destacados">
 	<h2>Destacados</h2>
 	<div class="Destacado" data-aos="fade-left" data-aos-duration="1500">
-		<a href=""> <img src="img/Accesorios/Anillo2.png" alt="" > </a>
+		<a href="accesorio.php"> <img src="img/Accesorios/Anillo2.png" alt="" > </a>
 	</div>
 		
 	<div class="Destacado" data-aos="fade-left" data-aos-duration="1500">

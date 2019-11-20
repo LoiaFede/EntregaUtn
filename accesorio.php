@@ -31,7 +31,7 @@
 	</div>
 
 	<div class="Contenedor" data-aos="flip-up"  data-aos-duration="1500">
-		<a href=""><img src="img/Accesorios/Anillo2.png" alt="" ></a>
+		<a data-scroll href="#Anillos"><img src="img/Accesorios/Anillo2.png" alt="" ></a>
 		<div class="textos">
 			<div>Anillos</div>
 
@@ -39,7 +39,7 @@
 	</div>
 
 	<div class="Contenedor" data-aos="flip-up"  data-aos-duration="1500">
-		<a href=""><img src="img/Accesorios/Collar5.png" alt="" ></a>
+		<a data-scroll href="#Collares"><img src="img/Accesorios/Collar5.png" alt="" ></a>
 		<div class="textos">
 			<div>Collares</div>
 		
@@ -47,7 +47,7 @@
 	</div>
 
 	<div class="Contenedor" data-aos="flip-up"  data-aos-duration="1500">
-		<a href=""><img src="img/Accesorios/Relojes4.png" alt="" ></a>
+		<a data-scroll href="#relojes"><img src="img/Accesorios/Relojes4.png" alt="" ></a>
 		<div class="textos">
 			<div>Relojes</div>
 		
@@ -80,7 +80,7 @@
 
 	<section class="Destacados2" data-aos="fade-up" style="margin-top: 0.5em;">
 		<h2 class="textin">Anillos</h2>
-		<div class="galeria2" >
+		<div id="Anillos"class="galeria2" >
 			<div class="foto2">
 				<a href=""> <img src="img/Accesorios/Anillo1.png" alt="" > </a>
 			</div>
@@ -104,7 +104,7 @@
 
 	<section class="Destacados2 fondo" data-aos="fade-up">
 		<h2 class="textin">Collar</h2>
-		<div class="galeria2" >
+		<div id="Collares" class="galeria2" >
 			<div class="foto2">
 				<a href=""> <img src="img/Accesorios/Collar1.png"  alt="foto01"> </a>
 			</div>
@@ -128,7 +128,7 @@
 
 	<section class="Destacados2 fondo" data-aos="fade-up">
 		<h2 class="textin">Relojes</h2>
-		<div class="galeria2" >
+		<div id="relojes"class="galeria2" >
 			<div class="foto2">
 				<a href=""> <img src="img/Accesorios/Relojes.png"  alt="foto01"> </a>
 			</div>
