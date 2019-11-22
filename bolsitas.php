@@ -1,3 +1,7 @@
+<?php include('conexion.php'); ?> <!-- //incluyo la conexión -->
+<?php $resultado=mysqli_query($conexion, "SELECT idBolsa, tamanio, color, precio, imagen FROM bolsitas ORDER BY idBolsa LIMIT 16") ?>
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -17,42 +21,42 @@
 	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
+	
 
 	<?php include('inc/header.php')?>
+	<?php while($bolsa=mysqli_fetch_array($resultado) ) { ?>
+	<div class="Contenedor" data-aos="flip-up"  data-aos-duration="1500">
+		<img src="<?php echo $bolsa['imagen'] ?>" alt="" >
+		<div class="textos">
+			<div>Bolsita de organza <?php echo $bolsa['tamanio'] ?></div>
+			<div><?php echo $bolsa['color'] ?></div>
+			<div>$<?php echo $bolsa['precio'] ?> c/u</div>
+		</div>
+	</div>
+	<div class="Contenedor" data-aos="flip-up"  data-aos-duration="1500">
+			<img src="<?php echo $bolsa['imagen'] ?>" alt="" >
+		<div class="textos">
+			<div>Bolsita de organza <?php echo $bolsa['tamanio'] ?></div>
+			<div><?php echo $bolsa['color'] ?></div>
+			<div>$<?php echo $bolsa['precio'] ?> c/u</div>
+		</div>
+		</div>
 
 	<div class="Contenedor" data-aos="flip-up"  data-aos-duration="1500">
-		<img src="img/Bolsitas/Bolsita1.png" alt="" >
+		<img src="<?php echo $bolsa['imagen'] ?>" alt="" >
 		<div class="textos">
-			<div>Bolsita de organza 7x9</div>
-			<div>Lila</div>
-			<div>$4.20 c/u</div>
+			<div>Bolsita de organza <?php echo $bolsa['tamanio'] ?></div>
+			<div><?php echo $bolsa['color'] ?></div>
+			<div>$<?php echo $bolsa['precio'] ?> c/u</div>
 		</div>
 	</div>
 
 	<div class="Contenedor" data-aos="flip-up"  data-aos-duration="1500">
-			<img src="img/Bolsitas/Bolsita2.png" alt="" >
-			<div class="textos">
-				<div>Bolsita de organza 7x9</div>
-				<div>Lila</div>
-				<div>$4.20 c/u</div>
-			</div>
-		</div>
-
-	<div class="Contenedor" data-aos="flip-up"  data-aos-duration="1500">
-		<img src="img/Bolsitas/Bolsita3.png" alt="" >
+		<img src="<?php echo $bolsa['imagen'] ?>" alt="" >
 		<div class="textos">
-			<div>Bolsita de organza 7x9</div>
-			<div>Lila</div>
-			<div>$4.20 c/u</div>
-		</div>
-	</div>
-
-	<div class="Contenedor" data-aos="flip-up"  data-aos-duration="1500">
-		<img src="img/Bolsitas/Bolsita4.png" alt="" >
-		<div class="textos">
-			<div>Bolsita de organza 7x9</div>
-			<div>Lila</div>
-			<div>$4.20 c/u</div>
+			<div>Bolsita de organza <?php echo $bolsa['tamanio'] ?></div>
+			<div><?php echo $bolsa['color'] ?></div>
+			<div>$<?php echo $bolsa['precio'] ?> c/u</div>
 		</div>
 	</div>
 
@@ -60,7 +64,7 @@
 		<img src="img/Bolsitas/Bolsita5.png" alt="" >
 		<div class="textos">
 			<div>Bolsita de organza 9x12</div>
-			<div>Lila</div>
+			<div>Rojo</div>
 			<div>$5 c/u</div>
 		</div>
 	</div>
@@ -69,7 +73,7 @@
 		<img src="img/Bolsitas/Bolsita6.png" alt="" >
 		<div class="textos">
 			<div>Bolsita de organza 9x12</div>
-			<div>Lila</div>
+			<div>Naranja</div>
 			<div>$5 c/u</div>
 		</div>
 	</div>
@@ -78,7 +82,7 @@
 		<img src="img/Bolsitas/Bolsita7.png" alt="" >
 		<div class="textos">
 			<div>Bolsita de organza 9x12</div>
-			<div>Lila</div>
+			<div>Manteca</div>
 			<div>$5 c/u</div>
 		</div>
 	</div>
@@ -87,7 +91,7 @@
 		<img src="img/Bolsitas/Bolsita8.png" alt="" >
 		<div class="textos">
 			<div>Bolsita de organza 9x12</div>
-			<div>Lila</div>
+			<div>Verde</div>
 			<div>$5 c/u</div>
 		</div>
 	</div>
@@ -160,7 +164,7 @@
 			<div>$5.5 c/u</div>
 		</div>
 	</div>
-
+	<?php } ?>
 	<?php include('inc/footer.php')?>
 	
 	<script>

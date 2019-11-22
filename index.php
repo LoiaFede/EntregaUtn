@@ -1,3 +1,5 @@
+<?php include('conexion.php') ?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,7 +10,6 @@
 	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
-	
 	<meta name="msapplication-TileColor" content="#da532c">
 	<meta name="theme-color" content="#ffffff">
 	<link rel="stylesheet" href="css/aos.css">
@@ -20,7 +21,7 @@
 <body>
 
 	<?php include('inc/header.php')?>			
-
+	
 	<section class="Destacados">
 	<h2>Destacados</h2>
 	<div class="Destacado" data-aos="fade-left" data-aos-duration="1500">
