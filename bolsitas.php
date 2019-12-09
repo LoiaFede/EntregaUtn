@@ -26,7 +26,7 @@
 	<?php include('inc/header.php')?>
 	<?php while($bolsa=mysqli_fetch_array($resultado) ) { ?>
 	<div class="Contenedor" data-aos="flip-up"  data-aos-duration="1500">
-		<img src="<?php echo $bolsa['imagen'] ?>" alt="" >
+		<img onclick="Popup()" src="<?php echo $bolsa['imagen'] ?>" alt="" >
 		<div class="textos">
 			<div>Bolsita de organza <?php echo $bolsa['tamanio'] ?></div>
 			<div><?php echo $bolsa['color'] ?></div>
@@ -34,7 +34,7 @@
 		</div>
 	</div>
 	<?php } ?>
-	
+
 	<?php include('inc/footer.php')?>
 	
 	<script>

@@ -25,15 +25,15 @@
 	<section class="Destacados">
 	<h2>Destacados</h2>
 	<div class="Destacado" data-aos="fade-left" data-aos-duration="1500">
-		<a href="accesorio.php"> <img src="img/Accesorios/Anillo2.png" alt="" > </a>
+		<a href="accesorio.php#Anillo"> <img src="img/Accesorios/Anillo2.png" alt="" > </a>
 	</div>
 		
 	<div class="Destacado" data-aos="fade-left" data-aos-duration="1500">
-		<a href=""> <img src="img/Bolsitas/Bolsita2.png" alt=""> </a>
+		<a href="bolsitas.php"> <img src="img/Bolsitas/Bolsita2.png" alt=""> </a>
 	</div>
 
 	<div class="Destacado" data-aos="fade-left" data-aos-duration="1500">
-		<a href=""> <img src="img/Accesorios/Relojes4.png" alt=""> </a>
+		<a href="accesorio.php#relojes"> <img src="img/Accesorios/Relojes4.png" alt=""> </a>
 	</div>
 	
 	</section>
