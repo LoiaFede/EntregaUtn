@@ -12,7 +12,7 @@
 	$contenido .= 'Teléfono: ' . $tel . "\r\n";
 	$contenido .= 'Comentario: ' . $comentario;
 
-	$remitente_usuario = "From: sitio web <flx64gmail.com>";
+	$remitente_usuario = "From: sitio web <AnaliaJoyas@gmail.com>";
 	$asunto_usuario = 'Aviso de recibo de consulta';
 	$contenido_usuario = 'Hola '. $nombre . ' enviaste el siguiente comentario ' . $comentario . "\r\n";
 	$contenido_usuario .= 'A la brevedad nos comunicaremos!';

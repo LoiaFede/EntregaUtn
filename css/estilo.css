@@ -438,3 +438,7 @@ h1{
 	height: 310px;
 	margin-top: -7px;
 }
+
+textarea{
+	resize: none; 
+}
