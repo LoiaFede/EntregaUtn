@@ -21,7 +21,7 @@
 	<?php include('inc/header.php')?>
 
 	<section>
-		<div class=contacto1>
+		<div class=contacto1 data-aos="fade-right" data-aos-duration="1500">
 		<div class="contactolel">
 			<h1>Llene el formulario para 	contactarnos!</h1>
 
@@ -56,7 +56,7 @@
 
 			
 		</div>
-		<div class="contacto2">
+		<div class="contacto2" data-aos="fade-left" data-aos-duration="1500">
 			<div class="contactolol">
 				
 		
@@ -90,43 +90,3 @@
 </html>
 
 
-
-<!-- <section class="holder" style="margin-top: 2em;">
-
-		<div class="columna " style="text-align: center">
-			<h2> Complete el sig. formulario</h2>
-			<form action="" method="get" accept-charset="utf-8" class="formulario">
-			<p> 
-				<label> Nombre </label>
-				<input type="text">
-			</p>
-			<p> 
-				<label> Email  </label>
-				<input type="text">
-			</p>
-			<p> 
-				<label> Teléfono </label>
-				<input type="text">
-			</p>
-			<p>
-				<label> Comentarios </label>
-				<textarea id="comentario"></textarea>
-			</p>
-			<p>
-				<input type="submit" value="Enviar">
-			</p>
-			</form>
-		</div>
-
-		<div class="columna " style="text-align: center" >
-			<h2>Otras vias de contacto</h2>
-			<p> tambien se puede comunicar con nosotros usando los siguientes medios: </p>
-			<ul style="list-style:none;">
-				<li> Tel: 1234-5678</li>
-				<li> Email: info@analiajoyas.com.ar</li>
-				<li> Facebook: facebook/Analiajoyas</li>
-				<li> Twitter: @Analiajoyas</li>
-			</ul>
-		</div>
-
-	</section> -->
